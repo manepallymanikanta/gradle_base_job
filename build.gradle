@@ -28,9 +28,10 @@ version = currentVersion
 apply plugin: 'com.jfrog.artifactory'
 apply plugin: 'java'
 apply plugin: 'maven-publish'
+apply plugin: 'application'
 
 dependencies {
-    testCompile 'junit:junit:4.7'
+    testImplementation 'junit:junit:4.12'
 }
 
 publishing {
